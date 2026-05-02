@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1a1610;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: 80px;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #c9a84c;
+}
+
+#msg {
+    display: inline-block;
+    background: #1e1a14;
+    border: 0.5px solid #c9a84c44;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #c9a84c;
+    letter-spacing: 0.04em;
+}
+
+.hide {
+    display: none;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#newbtn {
+    padding: 10px;
+    border-radius: 8px;
+    width: 110px;
+    border: 0.5px solid #c9a84c66;
+    text-align: center;
+    background: #c9a84c;
+    color: #1a1610;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.15s;
+}
+
+#newbtn:hover {
+    background: #e0bb6a;
+}
+
+.msg-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    background: #1a1610;
+    border: 0.5px solid #c9a84c33;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.box {
+    background-color: #252018;
+    color: #c9a84c;
+    height: 18vmin;
+    width: 18vmin;
+    border: 0.5px solid #c9a84c44;
+    border-radius: 12px;
+    font-size: 9vmin;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.box:hover {
+    background: #2e2619;
+    border-color: #c9a84c99;
+}
+
+#resetbtn {
+    padding: 10px;
+    border-radius: 8px;
+    width: 110px;
+    border: 0.5px solid #c9a84c66;
+    text-align: center;
+    background: transparent;
+    color: #c9a84c;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+#resetbtn:hover {
+    background: #c9a84c1a;
+}
